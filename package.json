@@ -1,6 +1,6 @@
 {
   "name": "@chrisjwarnes/form-validator",
-  "version": "1.0.62",
+  "version": "1.0.63",
   "description": "es6 replacement for jquery-unobtrusive-validation",
   "main": "index.js",
   "scripts": {
