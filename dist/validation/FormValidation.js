@@ -4,7 +4,7 @@ exports.__esModule = true;
 exports.updatedEvent = exports.addRule = exports.FormValidation = void 0;
 var _asyncValidator = _interopRequireDefault(require("async-validator"));
 var _submitAjaxForm = require("./submitAjaxForm");
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(e) { return e && e.__esModule ? e : { default: e }; }
 var ruleDefinitions = [];
 var inputValidClass = 'input-validation-valid';
 var inputErrorClass = 'input-validation-error';

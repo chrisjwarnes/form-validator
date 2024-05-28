@@ -14,7 +14,7 @@ var _minLength = _interopRequireDefault(require("./validation-rules/minLength.js
 var _number = _interopRequireDefault(require("./validation-rules/number.js"));
 var _phone = _interopRequireDefault(require("./validation-rules/phone.js"));
 var _regex = _interopRequireDefault(require("./validation-rules/regex.js"));
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(e) { return e && e.__esModule ? e : { default: e }; }
 // rules
 
 var setupValidation = exports.setupValidation = function setupValidation() {
