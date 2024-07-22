@@ -78,16 +78,22 @@ class FormValidation {
       try {
         this.validateField(e.target);
       } catch (err) {}
+    }, {
+      passive: true
     });
     this.form.addEventListener('input', e => {
       try {
         this.validateField(e.target);
       } catch (err) {}
+    }, {
+      passive: true
     });
     this.form.addEventListener('change', e => {
       try {
         this.validateField(e.target);
       } catch (err) {}
+    }, {
+      passive: true
     });
   }
   initRules() {
