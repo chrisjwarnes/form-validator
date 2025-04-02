@@ -20,7 +20,10 @@ var initForms = exports.initForms = function initForms() {
     initForm(form);
   }
   document.addEventListener('form-updated', function (e) {
-    var forms = e.target.querySelectorAll('form');
+    var forms = [...e.target.querySelectorAll('form')];
+    if (e.target.tagName.toLowerCase() == 'form') {
+      forms.push(e.target);
+    }
     for (var _form of forms) {
       initForm(_form);
     }
