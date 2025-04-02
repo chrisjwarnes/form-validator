@@ -22,7 +22,11 @@ export const initForms = function () {
   }
 
   document.addEventListener('form-updated', function (e) {
-    const forms = e.target.querySelectorAll('form')
+    const forms = [...e.target.querySelectorAll('form')]
+
+    if (e.target.tagName.toLowerCase() == 'form') {
+      forms.push(e.target)
+    }
 
     for (const form of forms) {
       initForm(form)
